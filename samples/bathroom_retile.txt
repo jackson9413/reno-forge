@@ -1,0 +1,52 @@
+Project: Bathroom floor retile
+
+Type: bathroom
+Total area: 60 sqft
+Year built: 1994
+
+Scope:
+- Remove existing vinyl tile and vinyl backing: 60 sqft
+- Repair and level the subfloor: 60 sqft
+- Install cement backer board: 60 sqft
+- Install 12x12 porcelain tile: 60 sqft
+- Grout and clean the floor: 60 sqft
+- Caulk the floor edge joint: 18 linear ft
+- Install primed baseboard: 18 linear ft
+- Haul away debris
+- Final clean
+
+Materials:
+- Porcelain tile 12x12 @ $2.35 /sqft
+- Cement board 3x4 @ $14.50 /sheet
+- Thinset mortar 25 lb @ $18.00 /bag
+- Grout premixed 5 lb @ $12.00 /tub
+- 100 percent silicone kitchen and bath @ $7.50 /tube
+- Primed baseboard 5.25 in @ $2.10 /linear ft
+- Tile spacers @ $6.50 /box
+- Contractor bags 4 @ $9.00 /each
+- Drop cloth @ $12.00 /each
+- N95 respirator @ $18.00 /each
+
+Tools:
+- Wet tile saw
+- Manual tile cutter
+- Notched trowel
+- Grout float
+- Sponge
+- Spirit level
+- Speed square
+- Chisel and hammer
+- Oscillating multi-tool
+- Drill
+- Circular saw
+- Bucket
+- Broom
+- Shop vac
+- Safety glasses and gloves
+
+Budget: $1,450
+Tax: 8.25%
+Contingency: 10%
+Labor: $0
+Skills: intermediate
+Start: 2026-11-23

@@ -1,0 +1,31 @@
+Project: Repair the basement drywall after a roof leak
+
+Type: drywall
+Total area: 240 sqft
+
+Scope:
+- Remove the water damaged drywall: 240 sqft
+- Inspect the framing for rot
+- Install new drywall: 240 sqft
+- Tape and mud the joints: 240 sqft
+- Sand and prime: 240 sqft
+- Final clean
+
+Materials:
+- Drywall 1/2 in @ $12.50 /sheet
+- Joint compound @ $22.00 /box
+- Drywall screws 800 @ $16.00 /box
+- Primer @ $32.00 /gallon
+
+Tools:
+- Drywall saw
+- Mud pan
+- Orbital sander
+- Drill
+- Safety glasses
+
+Budget: $900
+Tax: 8.25%
+Contingency: 10%
+Skills: beginner
+Start: 2026-11-23

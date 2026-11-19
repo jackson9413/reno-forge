@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>reno-forge - home renovation planner</title>
+<link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+<header class="topbar">
+  <div class="brand">
+    <span class="mark">RF</span>
+    <div>
+      <h1>reno-forge</h1>
+      <p>Paste a renovation brief. Get the shopping list, the cost, the schedule and what you are forgetting.</p>
+    </div>
+  </div>
+  <div class="badges">
+    <span class="badge local">local-first</span>
+    <span class="badge">no API keys</span>
+    <span class="badge">Flask + SQLite</span>
+  </div>
+</header>
+
+<main>
+  <section class="panel">
+    <h2><span class="step">1</span> The brief</h2>
+    <p class="hint">Plain text works. Sections named <code>Scope</code>, <code>Materials</code>, <code>Tools</code>,
+      <code>Budget</code> and <code>Schedule</code> are read as headings. One material per line:
+      <code>Porcelain tile 12x12 @ $2.35 /sqft</code>.</p>
+    <textarea id="brief" spellcheck="false" placeholder="Project: Bathroom floor retile
+
+Scope:
+- Remove existing vinyl tile: 60 sqft
+- Install cement backer board: 60 sqft
+- Install 12x12 porcelain tile: 60 sqft
+
+Materials:
+- Porcelain tile 12x12 @ $2.35 /sqft
+- Cement board 3x4 @ $14.50 /sheet
+
+Budget: $1,450
+Tax: 8.25%"></textarea>
+    <div class="controls">
+      <label class="field">Review profile
+        <select id="profile"></select>
+      </label>
+      <button id="analyze" class="primary">Analyze plan</button>
+      <button id="save" class="ghost" disabled>Save review</button>
+      <span id="status" class="status"></span>
+    </div>
+    <div class="samples">
+      <span class="samples-label">Samples</span>
+      <div id="sample-buttons" class="sample-buttons"></div>
+    </div>
+  </section>
+
+  <section class="panel" id="results" hidden>
+    <h2><span class="step">2</span> The review</h2>
+
+    <div class="score-head">
+      <div class="score-ring" id="score-ring">
+        <span id="score-value">0</span>
+        <small>/ 100</small>
+      </div>
+      <div class="score-meta">
+        <h3 id="verdict">-</h3>
+        <p id="project-line">-</p>
+        <div class="severity-counts" id="severity-counts"></div>
+      </div>
+    </div>
+
+    <div class="axes" id="axes"></div>
+
+    <div class="cards">
+      <div class="card" id="cost-card">
+        <h4>Cost roll-up</h4>
+        <div id="cost-breakdown"></div>
+      </div>
+      <div class="card" id="schedule-card">
+        <h4>Schedule</h4>
+        <div id="schedule-summary"></div>
+      </div>
+    </div>
+
+    <h3 class="section-title">Shopping list</h3>
+    <div class="table-wrap"><table id="takeoff"><thead><tr>
+      <th>Material</th><th>Need</th><th>With waste</th><th>Buy</th><th>Price</th><th>Est. cost</th><th>Where the number came from</th>
+    </tr></thead><tbody></tbody></table></div>
+
+    <h3 class="section-title">Schedule</h3>
+    <div class="table-wrap"><table id="schedule"><thead><tr>
+      <th>Day</th><th>Step</th><th>Hours</th><th>Cure after</th><th>Materials</th><th>Tools</th>
+    </tr></thead><tbody></tbody></table></div>
+
+    <div class="cards">
+      <div class="card">
+        <h4>Tools you already listed</h4>
+        <div id="tools-have" class="pill-list"></div>
+      </div>
+      <div class="card">
+        <h4>Tools you still need</h4>
+        <div id="tools-missing" class="pill-list"></div>
+      </div>
+    </div>
+
+    <h3 class="section-title">Findings</h3>
+    <div class="filters" id="filters">
+      <button class="chip active" data-sev="all">All</button>
+      <button class="chip" data-sev="high">High</button>
+      <button class="chip" data-sev="medium">Medium</button>
+      <button class="chip" data-sev="low">Low</button>
+    </div>
+    <div id="findings" class="findings"></div>
+
+    <h3 class="section-title">Fix plan</h3>
+    <ol id="fix-plan" class="fix-plan"></ol>
+
+    <h3 class="section-title">Assumptions</h3>
+    <ul id="assumptions" class="assumptions"></ul>
+
+    <div class="exports">
+      <button class="ghost" data-export="md">Download Markdown</button>
+      <button class="ghost" data-export="csv">Download shopping list CSV</button>
+      <button class="ghost" data-export="json">Download JSON</button>
+    </div>
+  </section>
+
+  <section class="panel" id="history-panel" hidden>
+    <h2><span class="step">3</span> Saved reviews</h2>
+    <div class="table-wrap"><table id="history"><thead><tr>
+      <th>When</th><th>Project</th><th>Profile</th><th>Score</th><th>Verdict</th><th>Estimate</th><th>Your rating</th>
+    </tr></thead><tbody></tbody></table></div>
+  </section>
+</main>
+
+<footer>
+  <p>reno-forge runs entirely on your machine. The engine is a standard-library analyser: no LLM, no network calls, no API keys.</p>
+</footer>
+<script src="/static/app.js"></script>
+</body>
+</html>

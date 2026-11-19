@@ -1,0 +1,24 @@
+Project: Repaint the upstairs bedrooms
+
+Type: painting
+Total area: 420 sqft
+
+Scope:
+- Prep and patch the walls
+- Prime the walls
+- Paint two coats
+
+Materials:
+- Interior paint @ $38.00 /gallon
+- Primer @ $28.00 /gallon
+- Roller covers 2 @ $9.00 /each
+- Painter's tape @ $12.00 /each
+
+Tools:
+- Roller frame
+- Drop cloth
+- Step ladder
+
+Budget: $320
+Tax: 8.25%
+Skills: beginner

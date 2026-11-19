@@ -1,0 +1,35 @@
+Project: Kitchen cabinet and counter replacement
+
+Type: kitchen
+Total area: 180 sqft
+
+Scope:
+- Remove existing cabinets and counters: 180 sqft
+- Install new base cabinets: 10 each
+- Install new wall cabinets: 5 each
+- Install quartz countertop: 42 sqft
+- Disconnect and reconnect the sink: 1 each
+- Haul away debris
+- Final clean
+
+Materials:
+- Shaker base cabinet 30 in @ $320.00 /each
+- Shaker wall cabinet 30 in @ $185.00 /each
+- Quartz countertop @ $95.00 /sqft
+- Plywood subfloor @ $38.00 /sheet
+- Cabinet allowance @ $600.00 /each
+- Screws and brackets @ $14.00 /box
+- Contractor bags 8 @ $9.00 /each
+
+Tools:
+- Drill
+- Spirit level
+- Safety glasses
+- Wheelbarrow
+
+Budget: $4,000
+Tax: 8.25%
+Labor: $1,600
+Skills: intermediate
+Start: 2026-11-23
+Deadline: 2026-12-20

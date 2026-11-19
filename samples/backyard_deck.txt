@@ -1,0 +1,29 @@
+Project: Build a 12 by 16 backyard deck
+
+Type: deck
+Location: outdoor
+Total area: 192 sqft
+
+Scope:
+- Dig and pour footings: 6 each
+- Deck framing: 64 linear ft
+- Lay the deck boards: 420 linear ft
+- Sand and stain the deck: 192 sqft
+
+Materials:
+- Pressure treated 2x4 framing @ $3.20 /linear ft
+- Deck boards @ $8.50 /linear ft
+- Deck stain @ $42.00 /gallon
+- Screws and joist hangers @ $24.00 /box
+
+Tools:
+- Circular saw
+- Drill
+- Spirit level
+- Wheelbarrow
+
+Budget: $4,500
+Tax: 8.25%
+Contingency: 10%
+Skills: beginner
+Start: 2026-11-23

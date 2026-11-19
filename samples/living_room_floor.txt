@@ -1,0 +1,22 @@
+Project: Replace the carpet with luxury vinyl plank in the living room
+
+Type: flooring
+Total area: 320 sqft
+
+Scope:
+- Remove existing carpet: 320 sqft
+- Install underlayment: 320 sqft
+- Install luxury vinyl plank: 320 sqft
+- Install transition strips at the hallway: 12 linear ft
+
+Materials:
+- Luxury vinyl plank
+- Underlayment roll
+- Transition strips
+
+Tools:
+- Circular saw
+- Speed square
+- Safety glasses
+
+Budget: $2,800
